@@ -13,14 +13,16 @@ A macOS Dock for a 15-key Stream Deck. Show up to 14 apps and a Return key, laun
 
 ## Install
 
-1. Download `local.dockdeck.streamDeckPlugin` from the repository's Releases when available, or build it locally.
-2. Open it with Stream Deck.
+**Only one file is needed:** [Download local.dockdeck.streamDeckPlugin](https://github.com/idrane/DockDeck/releases/download/v0.3.1.0-beta/local.dockdeck.streamDeckPlugin).
+
+1. Download the plugin using the link above.
+2. Double-click it to install with Stream Deck.
 3. Select your device and usual profile.
 4. Drag **DockDeck > Open Dock** onto an empty key.
 5. Press that key on the hardware or tap it on Mobile. Accept the bundled profile installation if prompted.
 6. Press an app key to launch or focus it. Press **Return** to return to the previous profile.
 
-The plugin includes both Dock layouts. The separate `DockDeck.streamDeckProfile` is optional: it provides a one-key entry screen. A profile alone does not replace the plugin.
+The plugin includes both Dock layouts. No separate profile, ZIP or source download is needed. To share DockDeck, send this single `.streamDeckPlugin` file. GitHub's automatic source archives are for developers only.
 
 Clicking a key in the desktop editor selects it for editing. Enter the Dock using the physical/Mobile key, not the profile dropdown, so Stream Deck records the return destination.
 
